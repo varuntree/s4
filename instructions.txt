@@ -1,0 +1,14 @@
+Use Semantic HTML: Structure your content logically using semantic HTML tags like <article>, <aside>, <nav>, and <footer>. This helps search engines comprehend the context and hierarchy of information.   
+Help Bot Crawlers: Create a robots.txt file in your application's root directory to guide search engine crawlers, specifying which parts should be indexed and which should be excluded.   
+Don't Forget Metadata Tags: Utilize the next/head component to incorporate essential meta tags, including title tags, meta descriptions, and Open Graph tags for social media sharing. Ensure each page has unique and relevant metadata.   
+Nail Your Status Codes: Employ appropriate HTTP status codes to signal the status of your pages to search engines. For instance, use a 404 status code for non-existent pages and a 301 redirect for moved pages.   
+Provide a Unique Title Tag for Each Page: The title tag is a strong SEO signal, so ensure each page has a unique and descriptive title that accurately reflects the content.   
+Provide a Unique Meta Description: While not a major ranking factor, the meta description helps users and search engines understand the page's content. Craft concise and informative descriptions for each page.   
+Proper Char Encoding: Specify the character encoding for your web pages using the <meta charset="utf-8"> tag to ensure proper text display.   
+No Meta Refresh Tags: Avoid using meta refresh tags, as they can disrupt users and may be perceived as spammy by search engines.   
+Viewport Tag: Include the viewport meta tag (<meta name="viewport" content="width=device-width, initial-scale=1.0">) to ensure your website displays correctly on different devices.   
+Provide a lang attribute: Use the lang attribute in the <html> tag to specify the language of your web page, aiding search engines in understanding the content's language.   
+Doctype Declaration: Include a doctype declaration (<!DOCTYPE html>) at the beginning of your HTML documents for correct parsing by browsers.   
+Provide a Canonical Link: Use the rel="canonical" link tag to specify the preferred version of a page when you have multiple URLs with similar content.   
+Conduct thorough keyword research: Identify and target the most relevant search terms for your audience to improve your content's visibility in search results.   
+Server-Side Rendering (SSR) for SEO: Next.js excels in server-side rendering (SSR), which is crucial for SEO. SSR ensures that content is rendered on the server and delivered to the browser as fully rendered HTML. This allows search engine crawlers to easily understand and index your content, especially dynamic content that may not be readily accessible with client-side rendering. By prioritizing SSR, you enhance your Next.js application's crawlability and improve its chances of ranking higher in search results.
